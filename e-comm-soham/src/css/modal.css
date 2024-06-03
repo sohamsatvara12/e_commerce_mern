@@ -1,0 +1,39 @@
+/* modal.css */
+.popup {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 40%;
+    transition: all 0.3s ease;
+  }
+  
+
+  
+  .address_list_container.close , .address_form_container.close{
+    right: -100%;
+  }
+  
+  .address_list_container.open,  .address_form_container.open {
+    right: 0%;
+  }
+  
+
+  
+  .close-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    color: #333;
+  }
+  

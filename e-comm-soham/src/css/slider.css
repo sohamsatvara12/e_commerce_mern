@@ -1,0 +1,12 @@
+.swiper-wrapper{
+    max-height: 400px;
+}
+.swiper-wrapper .swiper-slide{
+    width: 30px I !important;
+}
+.swiper-pagination{
+    bottom: 0 !important;
+}
+img{
+    object-fit: cover !important;
+}

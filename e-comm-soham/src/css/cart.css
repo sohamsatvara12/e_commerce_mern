@@ -1,0 +1,85 @@
+
+.cart-product-card{
+    /* width: calc(33.33% - 10px); */
+    height: 100%;
+    cursor: pointer;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.product-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 16px;
+}
+.cart-icon{
+border:1px solid #0078ad;
+border-radius: 50%;
+padding: 10px;
+font-size: 16px;
+
+}
+
+.add-cart-btn{
+    width: 100%;
+    background: white;
+    border: 2px solid #0078ad;
+    padding: 10px;
+    border-radius: 250px;
+    color: #0078ad;
+    font-weight: bold;
+}
+.cart-icon:hover{
+  background: white;
+  color:#0078ad;
+}
+
+.cart-bill{
+    padding: 20px;
+}
+
+body {
+   position: relative;
+
+}
+
+.address-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.address-input{
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+}
+.address-input:focus{
+   outline: none;
+    border-bottom-width: 2px;
+    
+}
+
+.address-input-container{
+    right: -412px;
+    transition:right .3s ease-out;
+}
+
+.address-input-container.visible{
+    right: 0px;
+}
+
+
+.address-box{
+    @apply cursor-pointer
+}
+.address-box.selected{
+    @apply border-2 border-themeColor border-solid
+}
